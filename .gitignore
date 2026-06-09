@@ -1,0 +1,29 @@
+# PyTorch & Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Exported data / arrays
+*.npy
+*.npz
+*.csv
+
+# Datasets and large outputs
+data/
+outputs/
+z_exports/
+figures/
+*.pdf
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# System / IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
