@@ -8,12 +8,18 @@
 *.npz
 *.csv
 
-# Datasets and large outputs
-data/
+# Datasets and large outputs (root symlink only — not lapa_z_compare/src/data/)
+/data
 outputs/
 z_exports/
 figures/
 *.pdf
+
+# Local environments
+.venv_vlm/
+
+# Logs
+*.log
 
 # Python caching
 __pycache__/

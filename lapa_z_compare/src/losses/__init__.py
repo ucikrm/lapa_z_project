@@ -1,0 +1,1 @@
+# Empty losses init file
