@@ -356,7 +356,7 @@ def main():
         cell.set_edgecolor(grid_color)
         cell.set_linewidth(0.8)
         
-    pdf_path = Path('/home/mohantyk/lapa_z_project/lapa_z_results_table.pdf')
+    pdf_path = Path('lapa_z_results_table.pdf')
     plt.savefig(pdf_path, bbox_inches='tight', dpi=300)
     print(f"PDF results table compiled successfully to {pdf_path}")
 
